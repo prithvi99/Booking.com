@@ -1,0 +1,45 @@
+.listSearch{
+    flex: 1;
+    background-color: #febb02;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    height: max-content;
+    top: 10px;
+}
+
+.listSearch>h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.listSearch>h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.listSearchInput{
+    height: 40px;
+    border: none;
+    border-color: #0071c2;
+    margin-bottom: 5px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+.faIcon{
+    font-size: 20px;
+    padding: 10px;
+    color: gray;
+}
+
+.listSearchButton{
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #0071c2;
+    color: #fff;
+}
